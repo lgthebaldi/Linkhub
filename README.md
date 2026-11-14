@@ -93,7 +93,7 @@ cd server
 npm install
 
 # Crie um arquivo .env na raiz da pasta 'server' e adicione suas variáveis
-# (use o arquivo .env.example como base se houver um)
+# (copie o arquivo server/.env.example como base: cp server/.env.example server/.env)
 MONGO_URI=sua_string_de_conexao_do_mongodb_atlas
 JWT_SECRET=seu_segredo_super_secreto_para_jwt
 
